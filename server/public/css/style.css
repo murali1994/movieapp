@@ -1,0 +1,31 @@
+/*table font color*/
+table {
+    color: white;
+}
+/*table width*/
+#
+listmovies {
+    width: 500 px;
+}
+h1,h3 ,p {
+    color: white;
+    text - shadow: 2 px 2 px 5 px blue;
+}
+label {
+    color: white;
+}
+body {
+    /*background: url('https://ak2.picdn.net/shutterstock/videos/14390056/thumb/11.jpg');*/
+    background-repeat: no - repeat;
+    background-size: cover;
+}
+.logoutbtn {
+    padding-top:20px;
+}
+.form1{
+    margin-top:80px;
+}
+.images{
+    height:100px;
+    width:100px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/movieSearch.js"></script>
+    <script src="js/logout.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="row">
+            <div class="col-sm-9">
+                <center>
+                    <h1>10 Movies To Watch Before I Die</h1>
+                </center>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-1 logoutbtn">
+                <button class="btn btn-primary" onclick="logout()">Logout</button>
+            </div>
+        </nav>
+        <nav class="row">
+            <nav class="col-sm-6">
+                <center>
+                    <div>
+                        <form>
+                            <label for="movie">Enter movie name :</label>
+                            <input type="text" id="moviename" placeholder="Enter movie" name="moviename">
+                        </form>
+                    </div>
+                </center>
+            </nav>
+            <nav class="col-sm-1">
+                <button onclick="getMovies()" class="btn btn-danger searchbtn">Search</button>
+            </nav>
+            <nav class="col-sm-3"></nav>
+            <nav class="col-sm-2">
+                <button type="submit" onclick="displayfav()" class="btn btn-danger">Show Favourites</button>
+            </nav>
+        </nav>
+    </div>
+    <center>
+        <table id="listmovies" class="table table-responsive">
+            <tbody>
+            </tbody>
+        </table>
+    </center>
+</body>
+
+</html>

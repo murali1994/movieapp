@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MovieApp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/movieSearch.js"></script>
+</head>
+
+<body>
+ <div class="container-fluid">
+  <div class="row">
+   <div class="sm-col-4">
+     <img class="images" src="http://www.movieboxpc.com/wp-content/uploads/2016/02/Movie-HD.jpg" alt="no logo image">
+   </div>
+   <div class="sm-col-8">
+     <center>
+        <h1>Movie App</h1>
+      </center>
+   </div>
+  </div>
+ </div>
+    <center>
+        
+        <div class="container form1">
+            <form method="post" action="/login">
+                <div class="form-group">
+                    <label for="email">E-mail id :</label>
+                    <input type="email" id="email" required placeholder="Enter email" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" required placeholder="Enter password" name="password">
+                </div>
+                <button type="submit" onclick="fnaction()" class="btn btn-danger">Login</button>
+                <a href="html/signup.html">signup</a>
+            </form>
+        </div>
+        <center>
+</body>
+
+</html>
