@@ -1,1 +1,9 @@
 language : node_js
+addons:
+  sonarcloud:
+    organization: "sonarcloud_organization_key" # the key of the org you chose at step #3
+    token:
+      secure: 5932e101a27b39660dc0d727c110822be2958b08 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
